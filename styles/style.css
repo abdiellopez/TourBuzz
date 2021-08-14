@@ -1,0 +1,103 @@
+.app{
+    width: 375px;
+    height: 812px;
+    border: 1px solid rgb(216, 216, 216);
+    font-family: Helvetica, sans-serif;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.signup input{
+    width: 302px;
+    height: 50px;
+    margin-bottom: 12px;
+    border: none;
+    background-color: #E8E8E8;
+    border-radius: 100px;
+    padding-left: 25px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.signup input::placeholder{
+    color: #BDBDBD;
+}
+
+.signup .button{
+    width: 329px;
+    height: 50px;   
+    border: none;
+    background-color: #6CC31D;
+    border-radius: 100px;
+    font-size: 16px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
+.singlesign{
+    display: flex;
+    align-items: center;
+    margin-top: 162px;
+    flex-direction: column;
+    margin-bottom: 49px;
+}
+
+.singlesign .button{
+    width: 329px;
+    height: 50px;   
+    border: none;
+    border-radius: 100px;
+    font-size: 16px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.google{
+    background-color: #4285F4;
+}
+
+.facebook{
+    background-color: #4267B2;
+}
+
+.existing-user{
+    text-align: center;
+    font-size: 14px;
+}
+
+.existing-user a{
+    color: #76CB37;
+}
+
+.existing-user a:visited{
+    color: #76CB37;
+}
+
+.existing-user p{
+    color: #575757;
+    font-size: 9px;
+}
+
+.existing-user p span{
+    color: #6CC31D;
+}
