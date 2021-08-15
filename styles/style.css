@@ -1,9 +1,17 @@
+body{
+    background-image: url("../assets/iPhone 11 extra Shadow.svg");
+    background-size: 580px;
+    background-repeat: no-repeat;
+}
+
 .app{
     width: 375px;
     height: 812px;
-    border: 1px solid rgb(216, 216, 216);
+    border: 1px solid rgba(216, 216, 216, 0);
     font-family: Helvetica, sans-serif;
     position: relative;
+    top: 100px;
+    left: 141.2px;
 }
 
 #logo{
